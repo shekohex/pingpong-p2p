@@ -1,0 +1,15 @@
+[package]
+name = "pingpong-p2p"
+version = "0.1.0"
+authors = ["Shady Khalifa <shekohex@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.38"
+async-std = { version = "1.9.0", features = ["attributes"] }
+env_logger = "0.8.3"
+futures = "0.3.13"
+libp2p = "0.35.1"
+log = "0.4.14"
+prost = "0.7.0"
+prost-types = "0.7.0"
